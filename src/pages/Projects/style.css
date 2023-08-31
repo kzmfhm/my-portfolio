@@ -1,0 +1,108 @@
+.cards {
+  margin-top: 3%;
+  display: grid;
+  justify-content: space-between;
+  z-index: 5;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.card {
+  flex-basis: calc(33.33% - 20px);
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background: #111111;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  height: 450px;
+  position: relative;
+  z-index: 5;
+}
+
+.project-card-technologies {
+  width: 345px;
+  height: 160px;
+  margin-top: 15px;
+}
+
+.project-card-technologies .tech-1,
+.project-card-technologies .tech-2,
+.project-card-technologies .tech-3 {
+  margin-left: 9px;
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Fira Code, monospace;
+  font-size: 16px;
+  background: #234e7a99;
+  border: #234e7a99;
+  border-radius: 20px;
+  padding: 3.2px 9.6px;
+  height: auto;
+}
+
+.zone {
+  width: 345;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.tech-4,
+.tech-5 {
+  margin-left: 9px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Fira Code, monospace;
+  font-size: 16px;
+  background: #234e7a99;
+  border: #234e7a99;
+  border-radius: 20px;
+  padding: 3.2px 9.6px;
+  margin-top: 30px;
+}
+
+.github-icon {
+  padding-left: 310px;
+  padding-top: 20px;
+}
+
+.project-page h1 {
+  color: #607b96;
+  font-size: 40px;
+  margin: 0;
+  font-family: Fira Code, monospace;
+  font-weight: 600;
+  margin-top: 80px;
+  letter-spacing: 1.5px;
+  margin-left: 37%;
+  margin-bottom: 5px;
+}
+
+.project-page p {
+  color: #8d8d8d;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 23px;
+  font-family: 'La Belle Aurore';
+  letter-spacing: 1.5px;
+  animation: fadeIn 0.3s 0.3s backwards;
+  margin-left: 25%;
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .cards {
+   
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    padding: 0;
+  }
+
+  .card{
+    padding-top: 5%;
+   width: 343px;
+    margin-bottom: 8px;
+    
+  }
+}

@@ -16,13 +16,15 @@
     "react-router": "^6.15.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
+    "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-css": "node-sass styles.scss -o dist"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +47,12 @@
   "devDependencies": {
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.28",
+    "sass": "^1.66.1",
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
