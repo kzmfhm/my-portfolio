@@ -4,6 +4,12 @@ body {
   margin: 0;
   overflow-x: hidden;
   z-index: -1;
+  overflow-y: hidden;
+}
+@media (max-width: 767px) {
+  body {
+    overflow-y: scroll;
+  }
 }
 
 

@@ -4,9 +4,9 @@ import scraperGif from '../../images/scraper.gif';
 import webpGif from '../../images/first-project.gif';
 import gameGif from '../../images/tic-act-game.gif';
 import githubImage from '../../images/github.svg';
+
 const Projects = () => {
- 
-  
+
   return (
     <>
     <Navbar/>
@@ -105,9 +105,13 @@ const Projects = () => {
             </div>
           </div>
           </div>
+        
         </div>
+      
      </div>
+     
     </div>
+
     </>
   );
 };

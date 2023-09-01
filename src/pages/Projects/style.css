@@ -92,6 +92,9 @@
 }
 
 @media screen and (max-width: 780px) {
+  body{
+    overflow-y: block;
+  }
   .cards {
    
     grid-template-columns: repeat(1, 1fr);
@@ -106,3 +109,4 @@
     
   }
 }
+

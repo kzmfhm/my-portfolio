@@ -46,13 +46,10 @@ body {
     }
   }
 
-.github-icon {
-    margin-left: 62%;
-    margin-top: -30px;
-    transition: color 0.3s; 
+.g-icon{
+    margin-left: 95%;
+  
+    
 }
 
-.github-icon:hover {
-    color: #daa520; 
-}
 

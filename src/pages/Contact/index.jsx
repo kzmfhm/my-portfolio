@@ -6,7 +6,7 @@ import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import EmailIcon from '@mui/icons-material/Email';
 import ChatIcon from '@mui/icons-material/Chat';
 import './style.css';
-import githubImage from '../../images/github.svg';
+import gImage from '../../images/github.svg'
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -16,7 +16,7 @@ const Contact = () => {
   const [responseMessage, setResponseMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false); // Step 1
   const baseUrl = 'http://localhost:8000';
-  const githubLink = 'https://github.com/kzmfhm/my-portfolio';
+  const gLink = 'https://github.com/kzmfhm/my-portfolio';
 
   const validateEmail = (email) => {
     const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -145,7 +145,7 @@ const Contact = () => {
                   </div>
                 ) : (
                   <input
-                    className='md:ml-[60px] ml-[60px] text-[#000000] p-2 w-[200px] bg-[#111] h-[40px] md:w-[400px]'
+                    className='md:ml-[60px] ml-[60px] font-bold text-[#000000] p-2 w-[200px] bg-[#111] h-[40px] md:w-[400px]'
                     type='button'
                     value='Send'
                     onClick={sendEmail}
@@ -159,8 +159,8 @@ const Contact = () => {
               </li>
             </ul>
           </form>
-          <a href={ githubLink } target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
+          <a href={gLink} target="_blank" rel="noopener noreferrer">
+              <img src={gImage} alt="my github" className="g-icon" />
             </a>
         </div>
        </div>
