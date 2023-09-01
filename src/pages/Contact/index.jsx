@@ -1,8 +1,10 @@
 import React,{useState} from 'react';
 import Navbar from '../../components/Navbar';
 import WomenImg from '../../images/woman1.png';
-import TextField from '@mui/material/TextField';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
+import EmailIcon from '@mui/icons-material/Email';
+import ChatIcon from '@mui/icons-material/Chat';
 const Contact = () => {
 
   const [name, setName] = useState('');
@@ -81,22 +83,23 @@ const Contact = () => {
           ⚡If you have any suggestion, project or even you want to say Hello..<br/> please fill out the form below and I will reply you shortly.
           ⚡</p>
         
-          <form class='bg-[#000000] mt-[30px] md:ml-[220px] ml-[20px] w-[310px] h-[500px] md:h-[500px] md:w-[510px]'>
-            <ul>
-              <li className=' mt-[50px]'>
-                {/* Replaced the input with Material-UI TextField */}
-                <TextField
+          <form className='bg-[#000000]  md:ml-[220px] ml-[20px] w-[310px] h-[500px] md:h-[500px] md:w-[510px]'>
+            <ul class='mt-[10px]'>
+              <li className=''>
+                <label class='mx-4'> <AccountBoxIcon style={{color: '#daa520' }}/></label>
+                <input class='mt-[50px] mx-2 text-yellow-700 p-2 bg-[#111] h-[40px] md:w-[400px]'
                   id="name"
                   label="Enter your name.."
                   variant="standard"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
+                 
                 />
               </li>
-              <li className='contact'>
-                {/* Replaced the input with Material-UI TextField */}
-                <TextField
+              <li className=''>
+              <label class='mx-4'> <EmailIcon style={{color: '#daa520' }}/></label>
+                <input class='mt-[50px] mx-2 text-yellow-700 p-2 bg-[#111] h-[40px] md:w-[400px]'
                   id="email"
                   label="Enter your email.."
                   variant="standard"
@@ -106,13 +109,20 @@ const Contact = () => {
                     setEmailValidationMessage('');
                   }}
                   required
+                  InputProps={{
+                    style: {
+                      color: 'white', // Text color
+                      // Add other styles here
+                    },
+                  }}
                 />
                 {emailValidationMessage && (
                   <p className='error-message'>{emailValidationMessage}</p>
                 )}
               </li>
               <li>
-                <textarea
+              <label class='mx-4'> <ChatIcon style={{color: '#daa520' }}/></label>
+                <textarea class='mt-[50px] mx-2 text-yellow-700 p-2 bg-[#111] h-[40px] md:w-[400px]'
                   onChange={(e) => setMessage(e.target.value)}
                   name='message'
                   placeholder='Message'
@@ -121,21 +131,26 @@ const Contact = () => {
               <li>
                 {/* Conditional rendering based on isLoading */}
                 {isLoading ? (
-                  <button className='flat-button3' disabled>
+                  <button class='mt-[50px] mx-2 text-white bg-[#daa520] p-2  h-[40px] md:w-[400px]' disabled>
                     <div className='loader'></div>
                   </button>
                 ) : (
                   <input
+                    className='md:mt-[50px] md:ml-[60px] text-[#000000] p-2 bg-[#111] h-[40px] md:w-[400px]'
                     type='button'
-                    className='flat-button3'
                     value='Send'
                     onClick={sendEmail}
                     disabled={isLoading}
+                    style={{ backgroundColor: '#daa520' }} // Add this style
                   />
                 )}
-                {responseMessage && !isLoading && (
-                  <p className='response-message'>{responseMessage}</p>
+               {responseMessage && !isLoading && (
+                
+                  <p className='mt-[50]' style={{ marginTop:'10px',marginLeft:'150px',color: '#daa520', fontSize: '18px' }}>
+                    {responseMessage}
+                  </p>
                 )}
+  
               </li>
             </ul>
           </form>
