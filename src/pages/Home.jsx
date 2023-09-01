@@ -3,7 +3,7 @@ import WomenImg from '../images/woman1.png';
 import Navbar from '../components/Navbar';
 const Home = () => {
  
-  const githubLink = 'https://github.com/kzmfhm/kzm-portfolio';
+  const githubLink = 'https://github.com/kzmfhm/my-portfolio';
   return (
     <>
     <Navbar/>
@@ -27,7 +27,7 @@ const Home = () => {
           <br /> 
           you can also see this project on my Github profile<br/>
           const githubLink:  <br /> 
-         <a href={githubLink}> https://github.com/kzmfhm/kzm-portfolio</a>.
+         <a href={githubLink}> https://github.com/kzmfhm/my-portfolio</a>.
           <br /> 
         </h3>
     </div>

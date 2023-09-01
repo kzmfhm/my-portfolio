@@ -6,6 +6,7 @@ import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import EmailIcon from '@mui/icons-material/Email';
 import ChatIcon from '@mui/icons-material/Chat';
 import './style.css';
+import githubImage from '../../images/github.svg';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -15,6 +16,7 @@ const Contact = () => {
   const [responseMessage, setResponseMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false); // Step 1
   const baseUrl = 'http://localhost:8000';
+  const githubLink = 'https://github.com/kzmfhm/my-portfolio';
 
   const validateEmail = (email) => {
     const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -71,24 +73,21 @@ const Contact = () => {
           <img src={WomenImg} alt='Woman' />
         </div>
         <div class='md:h-[700px] h-[700px] md:mt-[10px] mt-[20px] md:ml-10 md:w-[950px] w-[350px] ml-[20px] bg-[#111]'>
-          <p class='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 ...'>
-           
+        <p class='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
             ________________________{' '}
             <span className='mt-[-20px]'>
               <QuestionAnswerIcon style={{ color: '#daa520' }} />
             </span>{' '}
             ________________________
           </p>
-          
           <p class='md:ml-[220px] mt-[30px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600'>
             ⚡If you have any suggestions, projects, or even want to say
             Hello..<br /> please fill out the form below, and I will reply
             shortly.⚡
           </p>
-
           <form className='bg-[#000000]  md:ml-[220px] ml-[20px] w-[310px] h-[500px] md:h-[500px] md:w-[510px]'>
             <ul class='mt-[10px]'>
-              <li className=''>
+              <li>
                 <label class='mx-4'>
                   {' '}
                   <AccountBoxIcon style={{ color: '#daa520' }} />
@@ -103,7 +102,7 @@ const Contact = () => {
                   required
                 />
               </li>
-              <li className=''>
+              <li>
                 <label class='mx-4'>
                   {' '}
                   <EmailIcon style={{ color: '#daa520' }} />
@@ -160,8 +159,11 @@ const Contact = () => {
               </li>
             </ul>
           </form>
+          <a href={ githubLink } target="_blank" rel="noopener noreferrer">
+              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
+            </a>
         </div>
-      </div>
+       </div>
     </>
   );
 };

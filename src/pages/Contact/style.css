@@ -12,6 +12,12 @@ body {
     margin-left: 60px;
    
 }
+.error-message{
+    color: #daa520;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
 .loader-wrapper {
     display: flex;
     align-items: center;
@@ -33,4 +39,20 @@ body {
     100% { transform: rotate(360deg); }
   }
   
-  
+
+@media (max-width: 767px) {
+    .hide-in-mobile {
+      display: none;
+    }
+  }
+
+.github-icon {
+    margin-left: 62%;
+    margin-top: -30px;
+    transition: color 0.3s; 
+}
+
+.github-icon:hover {
+    color: #daa520; 
+}
+
