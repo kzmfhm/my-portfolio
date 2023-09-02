@@ -6,6 +6,7 @@ import Projects from './pages/Projects/index';
 import About from "./pages/About/index";
 import './App.css'
 
+
 function App() {
   return (
    <>

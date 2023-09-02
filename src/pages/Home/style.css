@@ -1,14 +1,22 @@
-
+.gitIcon{
+    display:none;
+}
 @media (max-width: 767px) {
    
     .section1 {
         margin-left: 30px;
         height: 180px;
         margin-top: -120px;
+        
     }
     .section1 p {
         width: 100%;
         font-size: 18px;
+    }
+    .gitIcon{
+        display:block;
+        margin-top: -10px;
+        margin-left: -60px;
     }
     .section2{
         display: none;

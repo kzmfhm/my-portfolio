@@ -76,7 +76,7 @@ const Contact = () => {
         <p class='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
             ________________________{' '}
             <span className='mt-[-20px]'>
-              <QuestionAnswerIcon style={{ color: '#daa520' }} />
+              <QuestionAnswerIcon style={{ marginBottom:'-10px',color: '#daa520' }} />
             </span>{' '}
             ________________________
           </p>
