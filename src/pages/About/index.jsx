@@ -41,14 +41,14 @@ const About = () => {
           </p>
             <div className="flex-container">
             <div className="left-container">
-            <h1 class='align-middle md:mx-[10px] mt-[20px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600'>⭐PERSONAL INFO
+            <h1 class='align-middle md:mx-[105px] mt-[20px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600'>⭐PERSONAL INFO
                 </h1>  
-            <h2 class='mt-5 about'>
-            🎓Hi there, Khuzaima is a frontend webdeveloper with more than 2 years of work experience in this field. As a programmer, She is a skilled and knowledgeable individual with a passion for creating and improving softwares and solving problems.<br/>
+                <p className='md:ml-[90px] h-[10px] md:mt-[-15px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
+                        ___________________</p>
+            <h2 class='mt-5 about pt-5 pl-[50px] pr-[40px]'>
+            🎓Hi there, Khuzaima is a frontend web developer with more than two years of work experience in this field. As a programmer, She is a skilled and knowledgeable individual with a passion for creating and improving softwares and solving problems.<br/>
              She is highly analytical, able to break down complex problems into manageable pieces and devise efficient solutions.
-
             She is also a strong problem-solver, able to troubleshoot and debug code to ensure that it is functioning as intended.<br/>
-            In addition to his technical expertise, she is also a strong communicator, able to clearly and effectively convey your ideas to team members and stakeholders.
             </h2>
             </div>
             <div className="right-container">
@@ -82,19 +82,19 @@ const About = () => {
                     <img class='mx-2' src={RImage} alt="react" />React
                     </li>
                     <li class='flex md:ml-[255px]  mt-[-193px]'>
-                    <img class='mx-2 python 1' src={PyImage} alt="python" />PYTHON
+                    <img class='mx-2' src={PyImage} alt="python" />PYTHON
                     </li>
                     <li class='flex md:ml-[255px]'>
-                    <img class='mx-2 next-js 2' src={NImage} alt="next-js" />NEXT.js
+                    <img class='mx-2' src={NImage} alt="next-js" />NEXT.js
                     </li>
                     <li class='flex md:ml-[255px] '>
-                    <img class='mx-2 html 3' src={htmlImage} alt="html" />HTML
+                    <img class='mx-2' src={htmlImage} alt="html" />HTML
                     </li>
                     <li class='flex md:ml-[255px]'>
-                    <img class='mx-2 figma 4' src={figmaImage} alt="figma" />FIGMA
+                    <img class='mx-2' src={figmaImage} alt="figma" />FIGMA
                     </li>
                     <li class='flex md:ml-[255px]'>
-                    <img class='mx-2 canva 5' src={canvaImage} alt="canva" />CANVA
+                    <img class='mx-2' src={canvaImage} alt="canva" />CANVA
                     </li>
                     <li class='flex md:ml-[255px]'>
                     <img class='mx-2 ' src={cssImage} alt="css" />CSS

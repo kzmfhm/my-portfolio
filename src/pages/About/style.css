@@ -10,7 +10,6 @@
     width: 390px;
     height: 470px;
     background-color: #000000;
-  
     margin-top: 10px;
     margin-left: 50px;
   }
@@ -19,12 +18,12 @@
     width: 390px;
     height: 470px;
     background-color: #000000;
-
     margin-top: 10px;
     margin-right: 50px;
   }
   .about{
     letter-spacing: 0.9px;
+  
   }
   @media screen and (max-width: 768px) {
     .flex-container {
@@ -41,6 +40,15 @@
       margin-left: 15px;
       height: auto;
       position: static;
+    }
+    .left-container h1{
+      padding-left: 30px;
+    }
+    .left-container h2{
+      padding-left: 30px;
+      padding-top: 0px;
+      letter-spacing: 0.4px;
+      padding-bottom: 30px;
     }
   
     .right-container {
