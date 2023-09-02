@@ -85,7 +85,7 @@ const Contact = () => {
             Hello..<br /> please fill out the form below, and I will reply
             shortly.⚡
           </p>
-          <form className='bg-[#000000]  md:ml-[220px] ml-[20px] w-[310px] h-[500px] md:h-[500px] md:w-[510px]'>
+          <form className='bg-[#000000]  md:ml-[220px] ml-[20px] w-[310px] h-[500px] md:h-[500px]  rounded-r-[8px]-[8px] md:w-[510px]'>
             <ul class='mt-[10px]'>
               <li>
                 <label class='mx-4'>

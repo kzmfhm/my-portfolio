@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     width: 950px;
-
     height: 550px;
   }
   
@@ -12,6 +11,7 @@
     background-color: #000000;
     margin-top: 10px;
     margin-left: 50px;
+    border-radius: 8px;
   }
   
   .right-container {
@@ -20,6 +20,7 @@
     background-color: #000000;
     margin-top: 10px;
     margin-right: 50px;
+    border-radius: 8px;
   }
   .about{
     letter-spacing: 0.9px;
