@@ -1,0 +1,47 @@
+.section3 {
+    display: block;
+}
+
+.box2,
+.box3,
+.box4 {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .section1 {
+        margin-left: 30px;
+        height: 180px;
+        margin-top: 10px;
+    }
+    .section1 p {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    /* Hide the content in section2, section3, and section4 */
+    .section2 h1,
+    .section2 h2,
+    .section2 ul,
+    .section3 h1,
+    .section3 h2,
+    .section3 ul,
+    .section4 h1,
+    .section4 h2,
+    .section4 ul {
+        display: none;
+    }
+    
+
+
+
+    
+    .box2,
+    .box3,
+    .box4 {
+        display: block;
+        margin-top: 20px;
+        height:100px;
+        width:310px;
+    }
+}
