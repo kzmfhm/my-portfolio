@@ -1,5 +1,9 @@
+.icon{
+  margin-left: 90%;  
+  margin-top: 45px;
+}
 .gitIcon{
-    display:none;
+    display: none;
 }
 @media (max-width: 767px) {
    

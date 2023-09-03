@@ -23,14 +23,15 @@ const Home = () => {
               <img src={gitImage} alt="github-code" className="gitIcon" />
             </a>
     </div>
-    <div class="md:mt-[20px] p-10 rounded-xl pt-[100px] items-center md:mx-[20px] space-x-4 font-bold  md:h-[330px]  h-[100px] w-[290px] md:w-[480px] text-white bg-[#111] section2">
-    <h2 class='align-middle md:mx-[20px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600'>⚫Frontend Developer /JavaScript & TypeScriptExpert/.
-     <br/> Mostly, I work on creating user interfaces.</h2>
-    
-    </div>
+    <div class='mt-[20px] pt-[110px] align-middle justify-center rounded-xl items-center space-x-4 md:mx-[20px]  font-bold h-[100px] md:h-[330px] w-[290px] md:w-[480px] text-white bg-[#111] section2'>
+    <h2 class='align-middle w-[350px] md:mx-[60px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600 hover:-translate-y-1 hover:scale-110 duration-300 ..'>
+        💫Frontend Developer / JavaScript & TypeScript Expert/. Mostly, I work on creating user interfaces.
+    </h2>
+</div>
+
     </div>
     <div class='section3'>
-    <div class="mt-[20px] pt-[10px] rounded-xl items-center space-x-4 font-bold  md:h-[330px] h-[100px] w-[290px] md:w-[480px] bg-[#111] ">
+    <div class="mt-[20px] pt-[10px] rounded-xl items-center space-x-4 font-bold md:mx-[5px] md:h-[330px] h-[100px] w-[290px] md:w-[480px] bg-[#111] ">
    <div class='solar-system'>
    <div class='sun justify-center align-middle text-center'>
     <div class='earth'>
@@ -40,17 +41,14 @@ const Home = () => {
     </div>
    </div>
     </div> 
-    <div class="mt-[20px] pt-[80px] rounded-xl items-center md:mx-[5px] space-x-4 font-bold h-[100px] md:h-[330px] w-[290px] md:w-[480px] text-white bg-[#111] section4">
-    
-    <h2 class='align-middle md:mx-[20px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-    ⚡This project is built using React, JavaScript, Material UI,HTML, TailwindCSS and CSS.⚡</h2>
-      <h2 class='align-middle  mt-[5px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  '>
-      you can also see this project on my Github profile:<br/>
-          <span class='align-middle text-yellow-700 text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-white '>👉const githubLink: </span>
-         <a class='text-green-400' href={githubLink}> https://github.com/kzmfhm/my-portfolio</a>.
-          <br /> 
-        </h2>
-        </div>
+    <div class="mt-[20px] pt-[110px] align-middle justify-center rounded-xl items-center md:mx-[5px] space-x-4 font-bold h-[100px] md:h-[330px] w-[290px] md:w-[480px] text-white bg-[#111] section4">
+    <h2 class='align-middle w-[350px] md:mx-[60px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
+    💫This project is built using React, JavaScript, Material UI,HTML, TailwindCSS and CSS.
+      you can also see this project on my Github profile:</h2><br/>
+      <a href={githubLink} target="_blank" rel="noopener noreferrer">
+              <img src={gitImage} alt="my github" className="icon" />
+            </a>   
+       </div>
     </div>
  
     </header>

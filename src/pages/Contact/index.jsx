@@ -8,6 +8,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import './style.css';
 import gImage from '../../images/github.svg'
 
+
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
