@@ -17,8 +17,10 @@ import NImage from '../../images/nextjs.svg';
 import figmaImage from '../../images/figma.svg';
 import canvaImage from '../../images/canva.svg';
 import './style.css'
+import gImage from '../../images/github.svg'
 
 const About = () => {
+  const gLink = 'https://github.com/kzmfhm/my-portfolio';
   return (
     <>
       <Navbar />
@@ -102,6 +104,9 @@ const About = () => {
                 </ul>
             </div>
           </div>
+          <a href={gLink} target="_blank" rel="noopener noreferrer">
+              <img src={gImage} alt="my github" className="g-Icon" />
+            </a>
         </div>
       </div>
     </>
