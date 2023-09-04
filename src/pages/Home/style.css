@@ -11,7 +11,7 @@
         margin-left: 30px;
         height: 180px;
         margin-top: -120px;
-        
+        z-index: -1;
     }
     .section1 p {
         width: 100%;
@@ -19,8 +19,8 @@
     }
     .gitIcon{
         display:block;
-        margin-top: -10px;
-        margin-left: -60px;
+        padding-top: 10px;
+        z-index: 5;
     }
     .section2{
         display: none;
