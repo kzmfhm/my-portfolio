@@ -2,6 +2,11 @@
   margin-left: 90%;  
   margin-top: 45px;
 }
+.woman-img{
+   
+    margin-left: 1%;
+  
+  }
 .gitIcon{
     display: none;
 }
@@ -9,8 +14,11 @@
     .section1 {
      display: flex;
      flex-direction: column-reverse;
-    
-  }
+     margin-top: 10%;
+ }
+  .woman-img{
+   display: none;
+}
     .section1 h1{
         font-size: 20px;
         margin-top: 3%;
