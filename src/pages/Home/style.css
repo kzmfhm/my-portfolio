@@ -36,23 +36,24 @@
         margin-top: 1%;
         margin-left: 44%;
     }
-    .gitIcon {
-      display: block;
-      margin-left: 90%;
-      z-index: 5;
-     
-    }
-  
-  
-    .section2{
-        display: none;
+   .section2{
+     display: none;
     }
       .section3{
-        display: none;
+        margin-top: 2%;
+        display: block;
     }
     .section4{
-          display: none;
+          display: block;
       }
+      .section4 h2{
+        font-size: 16px;
+        margin-top: 3%;
+        justify-content: center;
+        margin-left: 14%;
+        padding-top: 30%;
+        width: 250px;
+    }
 }
 .solar-system {
     position: relative;
@@ -97,7 +98,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: rotate-moon 2s linear infinite, orbit-moon 2s linear infinite;
+    animation: rotate-moon 0.5s linear infinite, orbit-moon 0.5s linear infinite;
 }
 
 @keyframes rotate-sun {
