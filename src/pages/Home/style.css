@@ -6,22 +6,36 @@
     display: none;
 }
 @media (max-width: 767px) {
-   
     .section1 {
-        margin-left: 30px;
-        height: 180px;
-        margin-top: -120px;
-        z-index: -1;
+     display: flex;
+     flex-direction: column-reverse;
+    
+  }
+    .section1 h1{
+        font-size: 20px;
+        margin-top: 3%;
+        justify-content: center;
+        margin-left: 33%;
     }
-    .section1 p {
-        width: 100%;
-        font-size: 18px;
+    .section1 h2{
+        margin-top: 1%;
+        justify-content: center;
+        margin-left: 44%;
+        font-size: 21px;
     }
-    .gitIcon{
-        display:block;
-        padding-top: 10px;
-        z-index: 5;
+    .section1 h3{
+        font-size: 11px;
+        margin-top: 1%;
+        margin-left: 44%;
     }
+    .gitIcon {
+      display: block;
+      margin-left: 90%;
+      z-index: 5;
+     
+    }
+  
+  
     .section2{
         display: none;
     }
