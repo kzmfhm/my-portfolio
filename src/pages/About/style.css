@@ -55,9 +55,12 @@
     .right-container {
       display:none;
     }
- 
+    .gt-Icon{
+      display: none;
+      
+    }
 }
-.g-Icon{
+.gt-Icon{
   margin-left: 95%;
   margin-top: -40px;
   

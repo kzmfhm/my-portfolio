@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full h-14 pt-[10px] bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'mt-[0px]' : ''}`}>
-      <div className="text-3xl font-bold mt-[20px]">
+       <div className="text-3xl font-bold mt-[20px] sticky top-0">
         <img src={Logo} alt="my-logo" />
       </div>
       <div className={`md:hidden text-yellow-700 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
@@ -31,7 +31,7 @@ const Navbar = () => {
       >
         <li
           className={`mx-[20px] text-xl cursor-pointer transition ease-in-out delay-150 hover:text-white hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ${
-            showMobileMenu ? 'text-sm border border-black' : ''
+            showMobileMenu ? 'text-sm mr-[0px]' : ''
           }`}
         >
           <Link to="/home" className={`md:text-xl md:hover:text-white md:hover:-translate-y-1 md:hover:scale-110 ${showMobileMenu ? 'md:hover:bg-[#111]' : ''}`} onClick={closeMobileMenu}>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li
           className={`mx-[20px] text-xl cursor-pointer transition ease-in-out delay-150 hover:text-white hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ${
-            showMobileMenu ? 'text-sm ml-[0px]' : ''
+            showMobileMenu ? 'text-sm mr-[0px]' : ''
           }`}
         >
           <Link to="/about" className={`md:text-xl md:hover:text-white md:hover:-translate-y-1 md:hover:scale-110 ${showMobileMenu ? 'md:hover:bg-[#111]' : ''}`} onClick={closeMobileMenu}>
@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li
           className={`mx-[20px] text-xl cursor-pointer transition ease-in-out delay-150 hover:text-white hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ${
-            showMobileMenu ? 'text-sm ml-[0px] border border-black' : ''
+            showMobileMenu ? 'text-sm mr-[0px]' : ''
           }`}
         >
           <Link to="/projects" className={`md:text-xl md:hover:text-white md:hover:-translate-y-1 md:hover:scale-110 ${showMobileMenu ? 'md:hover:bg-[#111]' : ''}`} onClick={closeMobileMenu}>
@@ -58,7 +58,7 @@ const Navbar = () => {
         </li>
         <li
           className={`mx-[20px] text-xl cursor-pointer transition ease-in-out delay-150 hover:text-white hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ${
-            showMobileMenu ? 'text-sm ml-[0px] ' : ''
+            showMobileMenu ? 'text-sm mr-[0px]' : ''
           }`}
         >
           <Link to="/contact" className={`md:text-xl md:hover:text-white md:hover:-translate-y-1 md:hover:scale-110 ${showMobileMenu ? 'md:hover:bg-[#111]' : ''}`} onClick={closeMobileMenu}>

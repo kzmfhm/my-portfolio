@@ -105,7 +105,7 @@ const About = () => {
             </div>
           </div>
           <a href={gLink} target="_blank" rel="noopener noreferrer">
-              <img src={gImage} alt="my github" className="g-Icon" />
+              <img src={gImage} alt="my github" className="gt-Icon" />
             </a>
         </div>
       </div>
