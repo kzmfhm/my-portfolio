@@ -5,6 +5,11 @@ body {
     overflow-x: hidden;
     z-index: -1;
   }
+  .g-icon{
+    margin-left: 95%;
+  
+    
+}
 .loading-tag {
     color: #daa520;
     font-size: 18px;
@@ -44,12 +49,13 @@ body {
     .hide-in-mobile {
       display: none;
     }
+    .g-icon{
+      margin-left: 82%;
+      margin-top: -13%;
+      
+  }
   }
 
-.g-icon{
-    margin-left: 95%;
-  
-    
-}
+
 
 

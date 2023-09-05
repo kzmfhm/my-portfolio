@@ -54,6 +54,10 @@
         padding-top: 30%;
         width: 250px;
     }
+    .icon{
+    margin-left: 85%;
+    margin-top: -3%;
+     }
 }
 .solar-system {
     position: relative;

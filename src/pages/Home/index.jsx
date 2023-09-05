@@ -23,7 +23,7 @@ const Home = () => {
      </div>
     <div class='mt-[20px]  pt-[110px] align-middle justify-center rounded-xl items-center space-x-4 md:mx-[10px]  font-bold h-[100px] md:h-[330px] w-[290px] md:w-[480px] text-white bg-[#111] section2'>
     <h2 class='align-middle w-[350px] md:mx-[60px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600 hover:-translate-y-1 hover:scale-110 duration-300 ..'>
-        💫Frontend Developer / JavaScript & TypeScript Expert/. Mostly, I work on creating user interfaces.
+        💫Frontend Developer Next.js, JavaScript & TypeScript Expert. Mostly, I work on creating user interfaces.
     </h2>
   </div>
   </div>
