@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <!-- PROJECT LOGO -->
 
   <br />
@@ -42,16 +43,18 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
       <li><a href="#questions">Questions</a></li>
     </ol>
   </details>
-  
   <!-- ABOUT THE PROJECT -->
-  
-  ## About The Project
-  
-  ### Photos
-  
+
+## About The Project
+
+### Photos
+
 ![My React Portfolio Screen Shot](src/images/home-page.png)
+
 ![My React Portfolio Screen Shot](src/images/project-page.png)
+
 ![My React Portfolio Screen Shot](src/images/contact-page.png)
+
 ![My React Portfolio Screen Shot](src/images/about-page.png)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
@@ -96,33 +99,25 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kzmfhm/kzm-portfolio-1.git
+   git clone https://github.com/kzmfhm/my-portfolio.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-
-  <p align="right"><a href="#readme-top">back to top</a></p>
-  
- 
-  <!-- LICENSE -->
+    <p align="right"><a href="#readme-top">back to top</a></p>
+   <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-  <p align="right"><a href="#readme-top">back to top</a></p>
-  
-  
 <!-- QUESTIONS -->
-  
+
 ## Questions
 
 If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email from my contact page.
-
 <a href="https://www.linkedin.com/in/khuzaima-n-658b98268/">LinkedIn</a> | <a href="https://github.com/kzmfhm">GitHub</a>
-
-Project Link: [https://github.com/kzmfhm/kzm-portfolio-1.git](https://github.com/kzmfhm/kzm-portfolio-1.git)
-
-  <p align="right"><a href="#readme-top">back to top</a></p>
+Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kzmfhm/my-portfolio.git)
+<p align="right"><a href="#readme-top">back to top</a></p>
