@@ -1,13 +1,12 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-
-  <br />
+<br />
   <div align="center">
     <a href="https://github.com/kzmfhm/my-portfolio">
       <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
-    <h1 align="center">kzm.co.uk</h1>
+    <h1 align="center">@kzm.co.pk</h1>
     <p align="center">
     <br/>
 Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.<br/>
@@ -73,7 +72,7 @@ While I wholeheartedly encourage you to utilise my portfolio as a springboard fo
 
 I kindly urge you to abstain from portraying either the portfolio or the projects as products of your own authorship. The energy and time devoted to shaping this portfolio reflect my personal journey and aspirations.
 
-Thank you for your understanding, and for embracing the ethos of creativity, authenticity, and shared respect that underpins our digital community. Your appreciation means a lot!
+Thank you for your understanding, and for embracing the ethos of creativity, authenticity, and shared respect that underpins our digital community. Your appreciation means a lot!🌟
 
 If you like what you see, I'd be truly grateful if you consider giving it a star 🌟
 
