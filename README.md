@@ -64,8 +64,8 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
   ![HTML](https://img.shields.io/badge/HTML-5E5E5E?style=for-the-badge&logo=html5)
   ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badgelogo=tailwind-css)
-  ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
