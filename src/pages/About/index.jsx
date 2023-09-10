@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import WomenImg from '../../images/girl.png';
+
 import InfoIcon from '@mui/icons-material/Info';
 import jsImage from '../../images/js.svg';
 import tsImage from '../../images/ts.svg';

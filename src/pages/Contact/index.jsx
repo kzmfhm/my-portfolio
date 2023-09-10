@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
-import WomenImg from '../../images/girl.png';
+
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import EmailIcon from '@mui/icons-material/Email';

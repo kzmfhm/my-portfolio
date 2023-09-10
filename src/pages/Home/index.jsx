@@ -1,5 +1,5 @@
 import React from 'react'
-import WomenImg from '../../images/girl.png';
+
 import Navbar from '../../components/Navbar';
 import './style.css';
 import gitImage from '../../images/github.svg';
