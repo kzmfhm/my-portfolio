@@ -50,7 +50,7 @@ Crafting Connections through Code: Explore my journey, projects, and passions in
 
 ![My React Portfolio Screen Shot](src/images/home-page.jpg)
 
-![My React Portfolio Screen Shot](src/images/project-page.jpg)
+![My React Portfolio Screen Shot](src/images/project-page.png)
 
 ![My React Portfolio Screen Shot](src/images/contact-page.jpg)
 
