@@ -4,7 +4,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   z-index: -1;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 @media (max-width: 767px) {
   body {
