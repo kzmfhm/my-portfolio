@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
-
 import InfoIcon from '@mui/icons-material/Info';
 import jsImage from '../../images/js.svg';
 import tsImage from '../../images/ts.svg';

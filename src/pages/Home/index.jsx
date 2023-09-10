@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Navbar from '../../components/Navbar';
 import './style.css';
 import gitImage from '../../images/github.svg';
@@ -11,10 +10,7 @@ const Home = () => {
     <Navbar/>
     <header class='h-auto md:pt-[-10px] md:flex flex-wrap overflow-hidden'>
     <div className='centered-div3'> 
-
-   
     <div class='section1'>
-  
     <div class="md:mt-[20px] font-sans hover:font-sans  md:mx-[10px] md:p-12 rounded-xl md:bg-[#111] md:pt-[100px] md:items-center md:space-x-4 h-[80px] w-[290px] font-bold md:h-[330px] md:w-[480px] text-white">
     <h1 class='md:mx-[80px] font-sans hover:font-sans text-2xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-700  hover:-translate-y-1 hover:scale-110 duration-300 ...'>💫HI THERE! I'M
       </h1>

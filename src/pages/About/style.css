@@ -25,10 +25,10 @@
   .centered-div {
     display: flex;
     width: 100%;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    height: 100%; /* Make sure the div takes up the full height of its parent */
-    background-color: #000000; /* Background color for the second div */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    background-color: #000000; 
   }
   
   .about{
