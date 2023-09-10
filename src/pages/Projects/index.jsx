@@ -109,12 +109,10 @@ const Projects = () => {
           </div>
           </div>
           <div className='card'>
-          <img src={loginImage} alt="sign-up" className="login" style={{ height: '400px' }} />
-
-
-            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
+          <img src={loginImage} alt="sign-up" className="login" style={{ height: '210px' }} />
+           <h2 class= 'md:mx-[120px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
           3D Form</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>WebP Converter converts any png,jpeg and svg images to webp formate.</p>
+            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>This is a 3D SignUp or SignIn page made using HTML, CSS and JavaScript.</p>
           <div className='project-card-technologies'>
           <span className='tech-1'>
           Javascript
@@ -131,7 +129,7 @@ const Projects = () => {
           Responsive
           </span>
             <div className="github">
-            <a href="https://github.com/kzmfhm/pyqt6-webp-file-converter" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kzmfhm/3D-login-page" target="_blank" rel="noopener noreferrer">
               <img src={githubImage} alt="GitHub Icon" className="github-icon" />
             </a>
             </div> 
