@@ -1,5 +1,5 @@
 import React from 'react'
-import WomenImg from '../../images/girl1.png';
+import WomenImg from '../../images/girl.png';
 import Navbar from '../../components/Navbar';
 import './style.css';
 import gitImage from '../../images/github.svg';
@@ -10,9 +10,9 @@ const Home = () => {
     <>
     <Navbar/>
     <header class='h-auto md:pt-[-10px] md:flex flex-wrap overflow-hidden'>
-  <div class='font-bold text-yellow-700 md:flex relative woman-img'>
-    <img src={WomenImg} alt="Woman Image" width={"520px"} height={"700px"} />
-    </div>
+    <div className='centered-div3'> 
+
+   
     <div class='section1'>
   
     <div class="md:mt-[20px] font-sans hover:font-sans  md:mx-[10px] md:p-12 rounded-xl md:bg-[#111] md:pt-[100px] md:items-center md:space-x-4 h-[80px] w-[290px] font-bold md:h-[330px] md:w-[480px] text-white">
@@ -47,7 +47,7 @@ const Home = () => {
             </a>   
        </div>
     </div>
- 
+    </div>
     </header>
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import WomenImg from '../../images/girl1.png';
+import WomenImg from '../../images/girl.png';
 import InfoIcon from '@mui/icons-material/Info';
 import jsImage from '../../images/js.svg';
 import tsImage from '../../images/ts.svg';
@@ -25,9 +25,7 @@ const About = () => {
     <>
       <Navbar />
       <div className='min-h-screen w-full text-white h-auto md:pt-[-10px] md:flex'>
-        <div className='hidden font-bold text-yellow-700 md:flex'>
-        <img src={WomenImg} alt="Woman Image" width={"520px"} />
-        </div>
+      <div className='centered-div'>
         <div className='md:h-[700px] h-[700px] md:mt-[10px] mt-[20px] md:ml-10 md:w-[950px] w-[350px] ml-[20px] bg-[#111]'>
           <p className='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
             ________________________{' '}
@@ -108,6 +106,7 @@ const About = () => {
               <img src={gImage} alt="my github" className="gt-Icon" />
             </a>
         </div>
+      </div>
       </div>
     </>
   );
