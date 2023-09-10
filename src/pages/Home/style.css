@@ -64,7 +64,7 @@
      }
      .centered-div3 {
         display: grid;
-        margin-right: 20px;
+       margin-left: -19px;
     
       }
 }

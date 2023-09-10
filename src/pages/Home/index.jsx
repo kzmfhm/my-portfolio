@@ -24,7 +24,7 @@ const Home = () => {
   </div>
   </div>
     <div class='section3'>
-    <div class="mt-[20px] pt-[10px] rounded-xl items-center space-x-4 font-bold md:mx-[5px] md:h-[330px] ml-10 h-[300px] w-[310px] md:w-[480px] bg-[#111] ">
+    <div class="mt-[20px] pt-[10px] rounded-xl items-center space-x-4 font-bold md:mx-[10px] md:h-[330px] ml-10 h-[300px] w-[310px] md:w-[480px] bg-[#111] ">
    <div class='solar-system'>
    <div class='sun justify-center align-middle text-center'>
     <div class='earth'>
@@ -34,7 +34,7 @@ const Home = () => {
     </div>
    </div>
     </div> 
-    <div class="mt-[20px] md:pt-[110px] align-middle justify-center rounded-xl items-center md:mx-[5px] space-x-4 font-bold h-[300px] ml-10 md:h-[330px] w-[310px] md:w-[480px] text-white bg-[#111] section4">
+    <div class="mt-[20px] md:pt-[110px] align-middle justify-center rounded-xl items-center md:mx-[10px] space-x-4 font-bold h-[300px] ml-10 md:h-[330px] w-[310px] md:w-[480px] text-white bg-[#111] section4">
     <h2 class='align-middle w-[350px] md:mx-[60px] md:mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
     💫This project is built using React, JavaScript, Material UI,HTML, TailwindCSS and CSS.
       you can also see this project on my Github profile:</h2><br/>

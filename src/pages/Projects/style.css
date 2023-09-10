@@ -90,10 +90,23 @@
   margin-left: 25%;
   width: 100%;
 }
-
+.centered-div4 {
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  background-color: #000000;
+  margin-top: 8%;
+}
 @media screen and (max-width: 780px) {
   body{
     overflow-y: block;
+  }
+  .text-zone p{
+    display: flex;
+   
+    width: 320px;
   }
   .cards {
    
@@ -107,6 +120,10 @@
    width: 343px;
     margin-bottom: 8px;
     
+  }
+  .centered-div4 {
+    margin-left: 22px;
+    margin-top: 8%;
   }
 }
 
