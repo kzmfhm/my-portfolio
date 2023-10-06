@@ -1,21 +1,14 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
-  <div align="center">
+<div align="center">
     <a href="https://github.com/kzmfhm/my-portfolio">
       <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
-    <h1 align="center">Refactored by @kzm</h1>
-    <p align="center">
-    <br/>
-Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.<br/>
+  Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.
       <br/>
       Built by: @kzm
       <br/>
-      <br/>
       <a href="https://github.com/kzmfhm/my-portfolio"><strong>Explore the docs »</strong></a>
-      <br/>
       <br/>
      </p>
   </div>
@@ -82,7 +75,7 @@ Thank you for your understanding, and for embracing the ethos of creativity, aut
 If you like what you see, I'd be truly grateful if you consider giving it a star 🌟
 
 <h3>TL;DR</h3>
-Feel free to fork this repo for your own purposes, provided you give me credit.
+Feel free to fork this repo for your own purposes.
 
   <p align="right"><a href="#readme-top">back to top</a></p>
 
