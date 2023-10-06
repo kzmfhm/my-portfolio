@@ -18,6 +18,34 @@ const Projects = () => {
           Shining a light on some of my hard work and accomplishments
         </p>
         <div className='cards'>
+        <div className='card'>
+          <img src={webpGif} alt="webp gif" className="webp-gif" />
+            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
+          A Desktop Application</h2>
+            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>WebP Converter converts any png,jpeg and svg images to webp formate.</p>
+          <div className='project-card-technologies'>
+          <span className='tech-1'>
+          PyQt6
+          </span>
+          <span className='tech-2'>
+          Python
+          </span>
+          <span className='tech-3'>
+            Image Conversion
+            </span>
+         <br/>
+          <div className='zone'>
+          <span className='tech-4'>
+          Pytest
+          </span>
+            <div className="github">
+            <a href="https://github.com/kzmfhm/pyqt6-webp-file-converter" target="_blank" rel="noopener noreferrer">
+              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
+            </a>
+            </div> 
+            </div>
+          </div>
+          </div>
           <div className='card'>
           <img src={webpGif} alt="webp gif" className="webp-gif" />
             <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
