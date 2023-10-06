@@ -30,8 +30,7 @@
           <li><a href="#installation">Installation</a></li>
         </ul>
       </li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#questions">Questions</a></li>
+    <li><a href="#questions">Questions</a></li>
     </ol>
   </details>
   <!-- ABOUT THE PROJECT -->
@@ -102,13 +101,6 @@ To get a local copy up and running follow these simple example steps.
    npm install
    ```
     <p align="right"><a href="#readme-top">back to top</a></p>
-   <!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.md` for more information.
-
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- QUESTIONS -->
 
