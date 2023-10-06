@@ -2,7 +2,7 @@
 
   <div align="center">
   <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
-    </a>
+  <p>
   📹Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React✨.
       <br/>
       Built by: @kzm
