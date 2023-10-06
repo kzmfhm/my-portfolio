@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
-<div align="center">
-    <a href="https://github.com/kzmfhm/my-portfolio">
-      <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
+  <div align="center">
+  <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
-  Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.
+  📹Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React✨.
       <br/>
       Built by: @kzm
       <br/>
@@ -64,7 +63,7 @@
   
   ### Description
   
-This is more than a portfolio; it's an invitation to explore, learn, and connect. So, immerse yourself and enjoy the journey.
+📹This is more than a portfolio; it's an invitation to explore, learn, and connect. So, immerse yourself and enjoy the journey.
 
 While I wholeheartedly encourage you to utilise my portfolio as a springboard for your own creative ventures, I would like to kindly ask that, in the spirit of fairness and recognition, you provide attribution to Your support in acknowledging the origin of this portfolio is greatly appreciated.
 
