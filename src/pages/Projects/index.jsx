@@ -4,8 +4,8 @@ import scraperGif from '../../images/scraper.gif';
 import webpGif from '../../images/first-project.gif';
 import gameGif from '../../images/tic-act-game.gif';
 import githubImage from '../../images/github.svg';
-import loginImage from '../../images/3D-form.gif';
-
+import loginImage from '../../images/signup.gif';
+import InstaGif from '../../images/instagram.gif';
 const Projects = () => {
 
   return (
@@ -19,27 +19,27 @@ const Projects = () => {
         </p>
         <div className='cards'>
         <div className='card'>
-          <img src={webpGif} alt="webp gif" className="webp-gif" />
+          <img src={InstaGif} alt="Insta gif" className="Insta-gif" style={{ width: '350px', height: '260px' }} />
             <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-          A Desktop Application</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>WebP Converter converts any png,jpeg and svg images to webp formate.</p>
+          An Instagram VideoPlayer</h2>
+            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>A project of video player seamless with Instagram stories.</p>
           <div className='project-card-technologies'>
           <span className='tech-1'>
-          PyQt6
+          Nextjs
           </span>
           <span className='tech-2'>
-          Python
+          React
           </span>
           <span className='tech-3'>
-            Image Conversion
+            Javascript
             </span>
          <br/>
           <div className='zone'>
           <span className='tech-4'>
-          Pytest
+          CSS
           </span>
             <div className="github">
-            <a href="https://github.com/kzmfhm/pyqt6-webp-file-converter" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kzmfhm/instagram-stories" target="_blank" rel="noopener noreferrer">
               <img src={githubImage} alt="GitHub Icon" className="github-icon" />
             </a>
             </div> 
@@ -138,7 +138,7 @@ const Projects = () => {
           </div>
           </div>
           <div className='card'>
-          <img src={loginImage} alt="sign-up" className="login" style={{ height: '210px' }} />
+          <img src={loginImage} alt="sign-up" className="login" style={{ height: '250px' }} />
            <h2 class= 'md:mx-[120px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
           3D Form</h2>
             <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>This is a 3D SignUp or SignIn page made using HTML, CSS and JavaScript.</p>

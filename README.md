@@ -31,6 +31,7 @@
         </ul>
       </li>
     <li><a href="#questions">Questions</a></li>
+    <li><a href="#support">Support</a></li>
     </ol>
   </details>
   <!-- ABOUT THE PROJECT -->
@@ -109,5 +110,11 @@ To get a local copy up and running follow these simple example steps.
 If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email from my contact page.
 <a href="https://www.linkedin.com/in/khuzaima-n-658b98268/">LinkedIn</a> | <a href="https://github.com/kzmfhm">GitHub</a><br/>
 Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kzmfhm/my-portfolio.git)
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## ⭐️Support
+
+Give a ⭐️ if this project helped you!
 
 <p align="right"><a href="#readme-top">back to top</a></p>
