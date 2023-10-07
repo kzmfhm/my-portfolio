@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
+Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfolio-roan-delta.vercel.app/)
 
 <div align="center">
-  Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfolio-roan-delta.vercel.app/)
   <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
   <p>
   📹Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React✨.
