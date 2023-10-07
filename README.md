@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
-Live Preview👉: [https://my-portfolio-roan-delta.vercel.app/](https://my-portfolio-roan-delta.vercel.app/)
 
-  <div align="center">
+<div align="center">
+  <h1>Live Preview👉: [https://my-portfolio-roan-delta.vercel.app/](https://my-portfolio-roan-delta.vercel.app/)</h1>
   <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
   <p>
   📹Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React✨.
@@ -114,7 +114,7 @@ Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kz
 
 <!-- SUPPORT -->
 
-#### ⭐️Support
+### ⭐️Support
 
 Give a ⭐️ if this project helped you!
 
