@@ -29,10 +29,11 @@ Live Preview👉: [https://my-portfolio-roan-delta.vercel.app/](https://my-portf
         <ul>
           <li><a href="#prerequisites">Prerequisites</a></li>
           <li><a href="#installation">Installation</a></li>
+           <li><a href="#support">Support</a></li>
         </ul>
       </li>
     <li><a href="#questions">Questions</a></li>
-    <li><a href="#support">Support</a></li>
+   
     </ol>
   </details>
   <!-- ABOUT THE PROJECT -->
@@ -113,7 +114,7 @@ If you have any inquiries, don't hesitate to reach out to me via socials or by s
 Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kzmfhm/my-portfolio.git)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
-
+<!-- SUPPORT -->
 ## ⭐️Support
 
 Give a ⭐️ if this project helped you!
