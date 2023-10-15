@@ -20,7 +20,7 @@ const Navbar = () => {
         <img src={Logo} alt="my-logo" />
       </div>
       <div className={`md:hidden text-yellow-700 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
-        <a className="text-4xl menu-icons" href="#" onClick={toggleMobileMenu}>
+        <a className="text-4xl mr-[20px] menu-icons" href="#" onClick={toggleMobileMenu}>
           &#8801;
         </a>
       </div>
