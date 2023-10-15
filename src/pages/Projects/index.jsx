@@ -6,6 +6,7 @@ import gameGif from '../../images/tic-act-game.gif';
 import githubImage from '../../images/github.svg';
 import loginImage from '../../images/signup.gif';
 import InstaGif from '../../images/instagram.gif';
+import foodGif from '../../images/food-website.gif';
 const Projects = () => {
 
   return (
@@ -14,10 +15,41 @@ const Projects = () => {
     <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px]'>
     <div className='centered-div4'> 
       <div className="text-zone">
-       <p className='md:mx-[220px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
+       <h4 className='md:mx-[220px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
           Shining a light on some of my hard work and accomplishments
-        </p>
+        </h4>
         <div className='cards'>
+        <div className='card'>
+          <img src={foodGif} alt="Food website" className="food-gif" style={{ width: '350px', height: '260px' }} />
+            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
+          FlavorCraft food website</h2>
+            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>Mixing classy style with easy-to-use buttons to make the website look fancy.</p>
+          <div className='project-card-technologies'>
+          <span className='tech-1'>
+          Nextjs
+          </span>
+          <span className='tech-2'>
+          React
+          </span>
+          <span className='tech-3'>
+            Javascript
+            </span>
+         <br/>
+          <div className='zone'>
+          <span className='tech-4'>
+          CSS
+          </span>
+          <span className='tech-5'>
+            Typescript
+            </span>
+            <div className="github">
+            <a href="https://github.com/kzmfhm/flavor-craft-food-website" target="_blank" rel="noopener noreferrer">
+              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
+            </a>
+            </div> 
+            </div>
+          </div>
+          </div>
         <div className='card'>
           <img src={InstaGif} alt="Insta gif" className="Insta-gif" style={{ width: '350px', height: '260px' }} />
             <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
@@ -38,6 +70,9 @@ const Projects = () => {
           <span className='tech-4'>
           CSS
           </span>
+          <span className='tech-5'>
+            Typescript
+            </span>
             <div className="github">
             <a href="https://github.com/kzmfhm/instagram-stories" target="_blank" rel="noopener noreferrer">
               <img src={githubImage} alt="GitHub Icon" className="github-icon" />

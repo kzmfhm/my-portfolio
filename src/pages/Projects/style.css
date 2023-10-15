@@ -103,13 +103,12 @@
   body{
     overflow-y: block;
   }
-  .text-zone p{
+  .text-zone h4{
     display: flex;
-   
     width: 320px;
+    margin-left: -43px;
   }
   .cards {
-   
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
     padding: 0;
@@ -117,8 +116,9 @@
 
   .card{
     padding-top: 5%;
-   width: 343px;
+    width: 343px;
     margin-bottom: 8px;
+    margin-left: -43px;
     
   }
   .centered-div4 {
