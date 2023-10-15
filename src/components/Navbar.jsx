@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../images/logo.svg';
 import { Link } from 'react-router-dom';
-
+import './style.css'
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <ul
         className={`font-bold text-yellow-700 md:flex ${
-          showMobileMenu ? 'flex' : 'hidden'
+          showMobileMenu ? 'grid' : 'hidden'
         } md:block`}
       >
         <li
