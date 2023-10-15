@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../images/logo.svg';
+import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './style.css'
 
@@ -14,10 +15,16 @@ const Navbar = () => {
     setShowMobileMenu(false);
   };
 
+
+  const handlePageClose = () => {
+  
+  };
   return (
     <nav className={`w-full h-14 pt-[10px] bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'mt-[0px]' : ''}`}>
        <div className="text-3xl font-bold mt-[20px] sticky top-0">
-        <img src={Logo} alt="my-logo" />
+       <NavLink to="/" onClick={handlePageClose}>
+          <img src={Logo} alt="my-logo" />
+        </NavLink>
       </div>
       <div className={`md:hidden text-yellow-700 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
         <a className="text-4xl mr-[20px] menu-icons" href="#" onClick={toggleMobileMenu}>
