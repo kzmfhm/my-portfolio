@@ -7,6 +7,7 @@ import githubImage from '../../images/github.svg';
 import loginImage from '../../images/signup.gif';
 import InstaGif from '../../images/instagram.gif';
 import foodGif from '../../images/food-website.gif';
+
 const Projects = () => {
 
   return (
@@ -14,7 +15,10 @@ const Projects = () => {
     <Navbar/>
     <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px]'>
     <div className='centered-div4'> 
+   
       <div className="text-zone">
+  
+   
        <h4 className='md:mx-[220px] align-middle text-white text-2xl md:mt-[50px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
           Shining a light on some of my hard work and accomplishments
         </h4>
