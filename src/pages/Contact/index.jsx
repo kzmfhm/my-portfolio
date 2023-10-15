@@ -96,6 +96,7 @@ const Contact = () => {
                   class='mt-[50px] mx-2 text-yellow-700 p-2 bg-[#111] h-[40px] md:w-[400px]'
                   id='name'
                   label='Enter your name..'
+                  placeholder='Name'
                   variant='standard'
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -111,6 +112,7 @@ const Contact = () => {
                   class='mt-[50px] mx-2 text-yellow-700 p-2 bg-[#111] h-[40px] md:w-[400px]'
                   id='email'
                   label='Enter your email..'
+                  placeholder='Email'
                   variant='standard'
                   value={email}
                   onChange={(e) => {
