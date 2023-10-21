@@ -167,7 +167,7 @@ const Contact = () => {
         </div>
         </div>
        </div>
-       <div className='mt-[10px]'>
+       <div className=' mt-[-100px] md:mt-[10px] footer'>
         <Footer/>
       </div>
     </>
