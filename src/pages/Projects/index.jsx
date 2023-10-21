@@ -7,14 +7,15 @@ import githubImage from '../../images/github.svg';
 import loginImage from '../../images/signup.gif';
 import InstaGif from '../../images/instagram.gif';
 import foodGif from '../../images/food-website.gif';
+import Footer from '../../components/Footer';
 
 const Projects = () => {
 
   return (
     <>
     <Navbar/>
-    <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px]'>
-    <div className='centered-div4'> 
+    <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[100px]'>
+    <div className='centered-div4 '> 
    
       <div className="text-zone">
   
@@ -206,11 +207,13 @@ const Projects = () => {
           </div>
           </div>
         </div>
-      
+    
      </div>
      
     </div>
-
+    <div className='mt-[300px]'>
+    <Footer/>
+    </div>
     </>
   );
 };

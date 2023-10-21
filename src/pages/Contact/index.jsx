@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
-
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import EmailIcon from '@mui/icons-material/Email';
 import ChatIcon from '@mui/icons-material/Chat';
 import './style.css';
 import gImage from '../../images/github.svg'
+import Footer from '../../components/Footer';
 
 
 const Contact = () => {
@@ -70,7 +70,7 @@ const Contact = () => {
     <>
       <Navbar />
       <div className='min-h-screen w-full text-white h-auto md:pt-[-10px] md:flex'>
-      <div className='centered-div2'>
+      <div className='centered-div2 mt-[50px]'>
         
         <div class='md:h-[700px] h-[700px] md:mt-[10px] mt-[40px] md:ml-10 md:w-[950px] w-[350px] ml-[-3px] bg-[#111]'>
         <p class='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
@@ -167,6 +167,9 @@ const Contact = () => {
         </div>
         </div>
        </div>
+       <div className='mt-[10px]'>
+        <Footer/>
+      </div>
     </>
   );
 };

@@ -17,6 +17,7 @@ import figmaImage from '../../images/figma.svg';
 import canvaImage from '../../images/canva.svg';
 import './style.css'
 import gImage from '../../images/github.svg'
+import Footer from '../../components/Footer';
 
 const About = () => {
   const gLink = 'https://github.com/kzmfhm/my-portfolio';
@@ -25,7 +26,7 @@ const About = () => {
       <Navbar />
       <div className='min-h-screen w-full text-white h-auto md:pt-[-10px] md:flex'>
      
-      <div className='centered-div'>
+      <div className='centered-div mt-[50px]'>
      
         <div className='md:h-[700px] h-[700px] md:mt-[10px] mt-[40px] md:ml-10 md:w-[950px] w-[350px] ml-[-3px] bg-[#111]'>
 
@@ -110,6 +111,9 @@ const About = () => {
         </div>
       </div>
       </div>
+      <div className='mt-[10px]'>
+    <Footer/>
+    </div>
     </>
   );
 };

@@ -3,13 +3,15 @@ import Navbar from '../../components/Navbar';
 import './style.css';
 import gitImage from '../../images/github.svg';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer';
+
 const Home = () => {
  const githubLink = 'https://github.com/kzmfhm/my-portfolio';
   return (
     <>
     <Navbar/>
     <header class='h-auto md:pt-[-10px] md:flex flex-wrap overflow-hidden'>
-    <div className='centered-div3'> 
+    <div className='centered-div3 mt-[50px]'> 
    
     <div class='section1'>
     <Link to="/about">
@@ -53,6 +55,9 @@ const Home = () => {
     </div>
     </div>
     </header>
+    <div className='mt-[10px]'>
+    <Footer/>
+    </div>
     </>
   )
 }
