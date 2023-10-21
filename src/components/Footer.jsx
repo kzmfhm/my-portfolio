@@ -26,7 +26,10 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className="social-icons">
+                   
+                    <a href="https://github.com/kzmfhm/my-portfolio" target="_blank" rel="noopener noreferrer">
                     <img className="social-icon" src={GithubIcon} alt="GitHub" />
+                     </a>
                     <img className="social-icon" src={LinkedinIcon} alt="LinkedIn" />
                     <img className="social-icon" src={FigmaIcon} alt="Figma" />
                 </div>

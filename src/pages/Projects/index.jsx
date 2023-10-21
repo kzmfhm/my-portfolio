@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <>
     <Navbar/>
-    <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[100px]'>
+    <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px] md:mt-[100px]'>
     <div className='centered-div4 '> 
    
       <div className="text-zone">
@@ -211,7 +211,7 @@ const Projects = () => {
      </div>
      
     </div>
-    <div className='mt-[300px]'>
+    <div className='md:mt-[300px] footer'>
     <Footer/>
     </div>
     </>
