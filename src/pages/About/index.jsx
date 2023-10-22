@@ -49,7 +49,7 @@ const About = () => {
                 <p className='md:ml-[90px] h-[10px] md:mt-[-15px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>
                         ___________________</p>
             <h2 class='mt-5 about pt-5 pl-[50px] pr-[40px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600'>
-            🎓Hi there, Khuzaima is a frontend web developer with more than two years of work experience in this field. As a programmer, She is a skilled and knowledgeable individual with a passion for creating and improving softwares and solving problems.<br/>
+            🎓Hi there, Khuzaima is a frontend web developer and UI/UX designer with more than two years of work experience in this field. As a programmer, She is a skilled and knowledgeable individual with a passion for creating and improving softwares and solving problems.<br/>
              She is highly analytical, able to break down complex problems into manageable pieces and devise efficient solutions.
             She is also a strong problem-solver, able to troubleshoot and debug code to ensure that it is functioning as intended.<br/>
             </h2>
