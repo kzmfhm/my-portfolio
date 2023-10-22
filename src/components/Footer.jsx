@@ -10,7 +10,6 @@ const Footer = () => {
     return (
         <Section background="dark" className="footer">
             <div className="footer-content-wrapper">
-               
                 <ul className="footer-menu-items">
                     <li className="footer-menu-item">
                         <Link to="/about">Skills</Link>

@@ -66,6 +66,9 @@
   padding-left: 310px;
   padding-top: 20px;
 }
+.github-icon:hover{
+  opacity: 0.3;
+}
 
 .project-page h1 {
   color: #607b96;

@@ -112,6 +112,7 @@ const About = () => {
       </div>
       </div>
       <div className='mt-[10px]'>
+    
     <Footer/>
     </div>
     </>
