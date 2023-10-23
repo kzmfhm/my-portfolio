@@ -4,6 +4,8 @@ import Home from './pages/Home/index';
 import Contact from './pages/Contact/index';
 import Projects from './pages/Projects/index';
 import About from "./pages/About/index";
+import 'tailwindcss/tailwind.css';
+
 import './App.css'
 
 

@@ -24,8 +24,8 @@ const Home = () => {
      </Link>
      <Link to="/contact">
     <div class='mt-[20px]  pt-[110px] align-middle justify-center rounded-xl items-center space-x-4 md:mx-[10px]  font-bold h-[100px] md:h-[330px] w-[290px] md:w-[480px] text-white bg-[#111] section2'>
-    <h2 class='align-middle w-[350px] md:mx-[60px] mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600 hover:-translate-y-1 hover:scale-110 duration-300 ..'>
-        💫Frontend Developer Next.js, JavaScript & TypeScript Expert. Mostly, I work on creating user interfaces.
+    <h2 class='align-middle w-[350px] md:mx-[80px] mt-[10px] text-white text-[20px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600 hover:-translate-y-1 hover:scale-110 duration-300 ..'>
+        Frontend Web Developer & UI/UX Designer. Mostly, I built and develop user interfaces.
     </h2>
   </div>
   </Link>
@@ -44,9 +44,9 @@ const Home = () => {
     </div> 
     <Link to="/projects">
     <div class="mt-[20px] md:pt-[110px] align-middle justify-center rounded-xl items-center md:mx-[10px] space-x-4 font-bold h-[300px] ml-10 md:h-[330px] w-[310px] md:w-[480px] text-white bg-[#111] section4">
-    <h2 class='align-middle w-[350px] md:mx-[60px] md:mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-    💫This project is built using React, JavaScript, Material UI,HTML, TailwindCSS and CSS.
-      you can also see more projects on my Github profile:</h2><br/>
+    <h2 class='align-middle w-[350px] md:mx-[70px] md:mt-[10px] text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
+    This project is built in React using JavaScript, TailwindCSS and CSS.
+    A visually captivating journey awaits on my GitHub profile.</h2><br/>
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <img src={gitImage} alt="my github" className="icon" />
             </a>   
@@ -55,7 +55,7 @@ const Home = () => {
     </div>
     </div>
     </header>
-    <div className='mt-[10px]'>
+    <div className='mt-[40px]'>
     <Footer/>
     </div>
     </>

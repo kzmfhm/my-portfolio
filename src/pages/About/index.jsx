@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className='min-h-screen w-full text-white h-auto md:pt-[-10px] md:flex'>
+      <div className='min-h-screen w-full text-white md:h-auto md:pt-[-10px] md:flex'>
      
       <div className='centered-div mt-[50px]'>
      
