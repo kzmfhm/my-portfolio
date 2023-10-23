@@ -26,7 +26,7 @@ const About = () => {
       <Navbar />
       <div className='min-h-screen w-full text-white md:h-auto md:pt-[-10px] md:flex'>
      
-      <div className='centered-div mt-[50px]'>
+      <div className='centered-div mt-[25px]  md:mt-[50px]'>
      
         <div className='md:h-[700px] h-[700px] md:mt-[10px] mt-[40px] md:ml-10 md:w-[950px] w-[350px] ml-[-3px] bg-[#111]'>
 

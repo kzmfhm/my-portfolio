@@ -62,7 +62,7 @@ const Contact = () => {
       console.error('Error sending email:', error);
       setResponseMessage('Error sending email.');
     } finally {
-      setIsLoading(false); // Reset loading state
+      setIsLoading(false); 
     }
   };
 
@@ -70,7 +70,7 @@ const Contact = () => {
     <>
       <Navbar />
       <div className='min-h-screen w-full text-white h-auto md:pt-[-10px] md:flex'>
-      <div className='centered-div2 mt-[50px]'>
+      <div className='centered-div2 mt-[25px]  md:mt-[50px]'>
         
         <div class='md:h-[700px] h-[700px] md:mt-[10px] mt-[40px] md:ml-10 md:w-[950px] w-[350px] ml-[-3px] bg-[#111]'>
         <p class='md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile'>

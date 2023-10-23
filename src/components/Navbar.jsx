@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`w-full h-14 pt-2 bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'mt-0' : ''}`}>
+    <nav className={`w-full h-14 pt-2 bg-black-400 flex justify-between items-center md:px-8 ${showMobileMenu ? 'mt-0' : ''}`}>
       <div className="text-3xl font-bold mt-2 sticky top-0">
         <NavLink to="/" onClick={closeMobileMenu}>
           <img src={Logo} alt="my-logo" />

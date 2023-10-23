@@ -11,7 +11,7 @@ const Home = () => {
     <>
     <Navbar/>
     <header class='h-auto md:pt-[-10px] md:flex flex-wrap overflow-hidden'>
-    <div className='centered-div3 mt-[50px]'> 
+    <div className='centered-div3  mt-[25px] md:mt-[50px]'> 
    
     <div class='section1'>
     <Link to="/about">
