@@ -1,3 +1,4 @@
+
 .icon{
   margin-left: 92%;  
   margin-top: 27px;
@@ -14,37 +15,105 @@
     height: 100%; 
     background-color: #000000;
   }
+  .home-heading {
+    font-size: 3.4rem;
+    line-height: 1.3em;
+  }
+  
+
+  .home-heading span {
+    color: black;
+    -webkit-text-stroke: 0.14vw rgb(44, 42, 42);
+    letter-spacing: 2px;
+    stroke-width: 3;
+    position: relative;
+    animation: textAnimate 5s infinite alternate;
+    margin-left: 20px;
+  }
+  
+  .home-heading span::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0vw rgb(44, 42, 42);
+    border-right: 3px solid #FBC02D;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+  
+  @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+  
+    70%,
+    90% {
+      width: 100%;
+    }
+  }
+  
 @media (max-width: 767px) {
     .section1 {
      display: flex;
      flex-direction: column-reverse;
      margin-top: 10%;
+     height: auto;
  }
-  .woman-img{
-   display: none;
-}
+ 
     .section1 h1{
         font-size: 20px;
         margin-top: 3%;
         justify-content: center;
         margin-left: 33%;
     }
-    .section1 h2{
-        margin-top: 1%;
+  
+    .home-heading span{
+      
         justify-content: center;
-        margin-left: 44%;
-        font-size: 21px;
+        margin-left: 15%;
+        width: 100px;
+        font-size: 52px;
+        color: #FFFFFF;
     }
+    .home-heading span::before {
+        content: none;
+        position: absolute;
+        top: 1;
+        left: 2;
+        width: 0;
+        height: 50%;
+        color: #FFFFFF;
+        border-right: 3px solid #FBC02D;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+      }
+   
     .section1 h3{
-        font-size: 11px;
-        margin-top: 1%;
-        margin-left: 44%;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 40%;
     }
    .section2{
-     display: none;
+     display: block;
+     margin-top: 20%;
+     height: auto;
+     margin-left: 11%;
+    }
+    .section2 h2{
+        font-size: 16px;
+        justify-content: center;
+        margin-left: 14%;
+        padding-top: 1%;
+        width: 250px;
     }
       .section3{
-        margin-top: 2%;
+        margin-top: 1%;
         display: block;
     }
     .section4{
