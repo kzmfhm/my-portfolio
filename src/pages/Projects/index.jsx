@@ -204,10 +204,8 @@ const Projects = () => {
           </div>
           </div>
         </div>
-    
+      </div>
      </div>
-     
-    </div>
     <div className='md:mt-[400px] footer'>
     <Footer/>
     </div>
