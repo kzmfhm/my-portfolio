@@ -36,7 +36,7 @@ const projectsData = [
     title: 'Tic-Tac-Toe Game',
     image: gameGif,
     description: 'Tic-Tac-Toe game is built in javaScript with CSS styling and animations.',
-    technologies: [ 'Javascript', 'CSS', 'HTML5','CSS', 'HTML5'],
+    technologies: [ 'Javascript', 'CSS', 'HTML','JQuery', 'Game Development'],
     githubLink: "https://github.com/kzmfhm/tic-tac-toe-game.git" ,
   },
   {
