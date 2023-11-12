@@ -1,214 +1,84 @@
-import './style.css';
+import React from 'react';
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import ProjectCard from './ProjectCard';
+import './style.css';
 import scraperGif from '../../images/scraper.gif';
 import webpGif from '../../images/first-project.gif';
 import gameGif from '../../images/tic-act-game.gif';
-import githubImage from '../../images/github.svg';
 import loginImage from '../../images/signup.gif';
 import InstaGif from '../../images/instagram.gif';
 import foodGif from '../../images/food-website.gif';
-import Footer from '../../components/Footer';
+
+const projectsData = [
+  {
+    title: 'FlavorCraft food website',
+    image: foodGif,
+    description: 'Mixing classy style with easy-to-use buttons to make the website look fancy.',
+    technologies: ['Nextjs', 'React', 'Javascript', 'CSS','Typescript' ],
+    githubLink: 'https://github.com/kzmfhm/flavor-craft-food-website',
+  },
+  {
+    title: 'An Instagram VideoPlayer',
+    image: InstaGif,
+    description: 'A project of video player seamless with Instagram stories.',
+    technologies: ['Nextjs', 'React', 'Javascript', 'CSS','Animations',],
+    githubLink: 'https://github.com/kzmfhm/instagram-stories',
+  },
+  {
+    title: '  A Desktop Application',
+    image: webpGif,
+    description: 'WebP Converter converts any png,jpeg and svg images to webp formate.',
+    technologies: ['Python', 'Pyqt6', 'Pytest', 'Image Conversion',],
+    githubLink: "https://github.com/kzmfhm/pyqt6-webp-file-converter",
+  },
+  {
+    title: 'Tic-Tac-Toe Game',
+    image: gameGif,
+    description: 'Tic-Tac-Toe game is built in javaScript with CSS styling and animations.',
+    technologies: [ 'Javascript', 'CSS', 'HTML5','CSS', 'HTML5'],
+    githubLink: "https://github.com/kzmfhm/tic-tac-toe-game.git" ,
+  },
+  {
+    title: '3D Login/Signup Form',
+    image: loginImage,
+    description: 'This is a 3D SignUp or SignIn page made using HTML, CSS and JavaScript.',
+    technologies: ['Javascript', 'CSS', 'HTML5','JQuery','Animations'],
+    githubLink: "https://github.com/kzmfhm/3D-login-page",
+  },
+  {
+    title: 'An Email Scraper',
+    image: scraperGif,
+    description: 'This scraper is built in python3 using PyQt6,beautifulsoup4 and requests libraries',
+    technologies: ['Python3', 'Pyqt6', 'Pytest','Beautifulsoup4','Requests'],
+    githubLink: "https://github.com/kzmfhm/pyqt6-gui-email-scraper",
+    height: '240px', 
+    width: '350px', 
+  },
+  
+];
 
 const Projects = () => {
-
   return (
     <>
-    <Navbar/>
-    <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px] md:mt-[70px]'>
-    <div className='centered-div4 '> 
-    <div className="text-zone">
-      <h4 className='md:mx-[220px] align-middle text-white text-2xl md:mt-[50px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
-          Shining a light on some of my hard work and accomplishments
-        </h4>
-        <div className='cards'>
-        <div className='card'>
-          <img src={foodGif} alt="Food website" className="food-gif" style={{ width: '350px', height: '260px' }} />
-            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-          FlavorCraft food website</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>Mixing classy style with easy-to-use buttons to make the website look fancy.</p>
-          <div className='project-card-technologies'>
-          <span className='tech-1'>
-          Nextjs
-          </span>
-          <span className='tech-2'>
-          React
-          </span>
-          <span className='tech-3'>
-            Javascript
-            </span>
-         <br/>
-          <div className='zone'>
-          <span className='tech-4'>
-          CSS
-          </span>
-          <span className='tech-5'>
-            Typescript
-            </span>
-            <div className="github">
-            <a href="https://github.com/kzmfhm/flavor-craft-food-website" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
+      <Navbar />
+      <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px] md:mt-[70px]'>
+        <div className='centered-div4 '>
+          <div className="text-zone">
+            <h4 className='md:mx-[220px] align-middle text-white text-2xl md:mt-[50px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
+              Shining a light on some of my hard work and accomplishments
+            </h4>
+            <div className='cards'>
+              {projectsData.map((project, index) => (
+                <ProjectCard key={index} {...project} />
+              ))}
             </div>
-          </div>
-          </div>
-        <div className='card'>
-          <img src={InstaGif} alt="Insta gif" className="Insta-gif" style={{ width: '350px', height: '260px' }} />
-            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-          An Instagram VideoPlayer</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>A project of video player seamless with Instagram stories.</p>
-          <div className='project-card-technologies'>
-          <span className='tech-1'>
-          Nextjs
-          </span>
-          <span className='tech-2'>
-          React
-          </span>
-          <span className='tech-3'>
-            Javascript
-            </span>
-         <br/>
-          <div className='zone'>
-          <span className='tech-4'>
-          CSS
-          </span>
-          <span className='tech-5'>
-            Typescript
-            </span>
-            <div className="github">
-            <a href="https://github.com/kzmfhm/instagram-stories" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
-            </div>
-          </div>
-          </div>
-          <div className='card'>
-          <img src={webpGif} alt="webp gif" className="webp-gif" />
-            <h2 class= 'md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-          A Desktop Application</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>WebP Converter converts any png,jpeg and svg images to webp formate.</p>
-          <div className='project-card-technologies'>
-          <span className='tech-1'>
-          PyQt6
-          </span>
-          <span className='tech-2'>
-          Python
-          </span>
-          <span className='tech-3'>
-            Image Conversion
-            </span>
-         <br/>
-          <div className='zone'>
-          <span className='tech-4'>
-          Pytest
-          </span>
-            <div className="github">
-            <a href="https://github.com/kzmfhm/pyqt6-webp-file-converter" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
-            </div>
-          </div>
-          </div>
-          
-          <div className='card'>
-          <img src={gameGif} alt="tikytoky gif" className="tic-tac-toe-gif" />
-            <h2 class='md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>Tic-Tac-Toe Game</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600   ...'>Tic-Tac-Toe game is built in javaScript with css styling and animations.
-            </p>
-          <div className='project-card-technologies'>
-          <span className='tech-1'>
-          JavaScript
-          </span>
-          <span className='tech-2'>
-          CSS
-          </span>
-          <span className='tech-3'>
-          HTML
-          </span>
-         <span className='tech-3'>
-          CSS-grid
-          </span>
-          <br/>
-          <div className='zone'>
-            <span className='tech-4'>
-            Game Development
-            </span>
-           <div className="github">
-            <a href="https://github.com/kzmfhm/tic-tac-toe-game.git" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
-            </div>
-          </div>
-          </div>
-         
-          <div className='card'>
-          <img src={scraperGif} alt="scraper gif" className="scraper-gif" style={{ width: '350px', height: '210px' }} />
-          <h2 class='md:mx-[80px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>An Email Scraper</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'> This scraper is built in python3 using PyQt6,beautifulsoup4 and requests libraries.</p>
-          <div className='project-card-technologies'>
-            <span className='tech-1'>
-            Python3
-            </span>
-            <span className='tech-2'>
-            PyQt6
-            </span>
-            <span className='tech-3'>
-            Pytest
-            </span>
-            <span className='tech-5'>
-            Requests
-            </span>
-            <br/>
-            <div className='zone'>
-            <span className='tech-4'>
-            beautifulsoup4
-            </span>
-            <div className="github">
-            <a href="https://github.com/kzmfhm/pyqt6-gui-email-scraper" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
-            </div>
-          </div>
-          </div>
-          <div className='card'>
-          <img src={loginImage} alt="sign-up" className="login" style={{ height: '250px' }} />
-           <h2 class= 'md:mx-[120px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-300 ...'>
-          3D Form</h2>
-            <p class='md:mx-[13px] mt-[10px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  ...'>This is a 3D SignUp or SignIn page made using HTML, CSS and JavaScript.</p>
-          <div className='project-card-technologies'>
-          <span className='tech-1'>
-          Javascript
-          </span>
-          <span className='tech-2'>
-          HTML
-          </span>
-          <span className='tech-3'>
-            CSS
-            </span>
-         <br/>
-          <div className='zone'>
-          <span className='tech-4'>
-          Responsive
-          </span>
-            <div className="github">
-            <a href="https://github.com/kzmfhm/3D-login-page" target="_blank" rel="noopener noreferrer">
-              <img src={githubImage} alt="GitHub Icon" className="github-icon" />
-            </a>
-            </div> 
-            </div>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-     </div>
-    <div className='md:mt-[400px] footer'>
-    <Footer/>
-    </div>
+      <div className='md:mt-[400px] footer'>
+        <Footer />
+      </div>
     </>
   );
 };
