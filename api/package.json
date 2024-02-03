@@ -18,6 +18,6 @@
         "express": "^4.18.2",
         "express-async-handler": "^1.2.0",
         "fs": "^0.0.1-security",
-        "nodemailer": "^6.9.4"
+        "nodemailer": "^6.9.9"
     }
 }
