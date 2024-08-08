@@ -9,13 +9,20 @@ import gameGif from '../../images/gif/tic-act-game.gif';
 import loginImage from '../../images/gif/signup.gif';
 import InstaGif from '../../images/gif/instagram.gif';
 import foodGif from '../../images/gif/food-website.gif';
-
+import showroomGif from '../../images/gif/mobile-showroom.gif'
 const projectsData = [
+  {
+    title: 'Online Mobile Showroom',
+    image: showroomGif,
+    description: 'A django ecommerce template for mobile showroom.',
+    technologies: ['Django', 'Bootstrap', 'Html', 'CSS','Javascript','Python' ],
+    githubLink: 'https://github.com/kzmfhm/mobile-showroom',
+  },
   {
     title: 'FlavorCraft food website',
     image: foodGif,
     description: 'Mixing classy style with easy-to-use buttons to make the website look fancy.',
-    technologies: ['Nextjs', 'React', 'Javascript', 'CSS','Typescript' ],
+    technologies: ['Nextjs', 'React', 'Javascript', 'CSS','Typescript','Html' ],
     githubLink: 'https://github.com/kzmfhm/flavor-craft-food-website',
   },
   {
@@ -62,7 +69,7 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-      <div className='h-auto w-full md:h-[700px] md:flex justify-center mt-[50px] md:mt-[70px]'>
+      <div className='h-auto w-full  md:flex justify-center '>
         <div className='centered-div4 '>
           <div className="text-zone">
             <h4 className='md:mx-[220px] align-middle text-white text-2xl md:mt-[50px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 ...'>
@@ -76,7 +83,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='md:mt-[400px] footer'>
+      <div className=' footer'>
         <Footer />
       </div>
     </>

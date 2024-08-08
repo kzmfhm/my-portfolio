@@ -34,16 +34,12 @@ const ProjectCard = ({
           ))}
         </div>
         <br />
-        <div className="zone">
-          <div className="github">
-            <a href={githubLink} target="_blank" rel="noopener noreferrer">
-              <img
-                src={githubImage}
-                alt="GitHub Icon"
-                className="github-icon"
-              />
-            </a>
-          </div>
+      </div>
+      <div className="zone">
+        <div className="github">
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <img src={githubImage} alt="GitHub Icon" className="github-icon" />
+          </a>
         </div>
       </div>
     </div>
