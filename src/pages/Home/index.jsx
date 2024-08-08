@@ -5,11 +5,14 @@ import gitImage from '../../images/svg/github.svg';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
 
+
 const Home = () => {
  const githubLink = 'https://github.com/kzmfhm/my-portfolio';
   return (
     <>
+    <div className="bg-light-background dark:bg-dark-background text-light-foreground dark:text-dark-foreground">
     <Navbar/>
+  
     <header class='h-auto md:pt-[-10px] md:flex flex-wrap overflow-hidden'>
     <div className='centered-div3  mt-[17px] md:mt-[5px]'> 
    {/* --------------Section1----------- */}
@@ -64,8 +67,11 @@ const Home = () => {
     </div>
     </div>
     </header>
+
     <div className='mt-[40px]'>
     <Footer/>
+   
+    </div>
     </div>
     </>
   )

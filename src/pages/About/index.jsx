@@ -28,7 +28,7 @@ const About = () => {
   ];
 
   const renderSkills = () => (
-    <ul className="mt-[10px] md:mt-[40px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600">
+    <ul className="mt-[30px] md:mt-[40px] cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600">
       {skills.map((skill, index) => (
         <li
           key={index}

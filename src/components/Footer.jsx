@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import "./style.scss";
 import Section from "../sections";
 
+
 const Footer = () => {
     return (
         <Section background="dark" className="footer">
@@ -15,7 +16,7 @@ const Footer = () => {
                         <Link to="/about">Skills</Link>
                     </li>
                     <li className="footer-menu-item">
-                        <Link to="/projects">Portfolio</Link> 
+                        <Link to="/projects">Projects</Link> 
                     </li>
                     <li className="footer-menu-item">
                         <Link to="/">Home</Link>
@@ -34,10 +35,12 @@ const Footer = () => {
                 </div>
                 <div className="bottom-bar">
                     <div className="copyright-text">
-                        Copyright 2023 kzm Frontend developer | All Rights Reserved
+                        Copyright 2024 kzm Frontend developer | All Rights Reserved
+                   
                     </div>
                 </div>
             </div>
+         
         </Section>
     );
 };
