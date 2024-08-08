@@ -10,6 +10,8 @@ import loginImage from '../../images/gif/signup.gif';
 import InstaGif from '../../images/gif/instagram.gif';
 import foodGif from '../../images/gif/food-website.gif';
 import showroomGif from '../../images/gif/mobile-showroom.gif'
+import PortfolioGif from '../../images/gif/portfolio-website.gif';
+
 const projectsData = [
   {
     title: 'Online Mobile Showroom',
@@ -17,6 +19,13 @@ const projectsData = [
     description: 'A django ecommerce template for mobile showroom.',
     technologies: ['Django', 'Bootstrap', 'Html', 'CSS','Javascript','Python' ],
     githubLink: 'https://github.com/kzmfhm/mobile-showroom',
+  },
+  {
+    title: 'Portfolio Website',
+    image: PortfolioGif,
+    description: 'A portfolio website for user experience.',
+    technologies: [ 'Javascript','NextJs','FramerMotion', 'Html', 'CSS', ],
+    githubLink: 'https://github.com/kzmfhm/portfolio-website',
   },
   {
     title: 'FlavorCraft food website',
