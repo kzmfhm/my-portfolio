@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-// import InfoIcon from "/icons-material/Info";
 import "./style.css";
 import gImage from "../../images/svg/github.svg";
 import Footer from "../../components/Footer";
@@ -51,7 +50,7 @@ const About = () => {
             <p className="md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile">
               ________________________{" "}
               <span className="mt-[-20px]">
-                {/* <InfoIcon style={{ marginBottom: "-10px", color: "#daa520" }} /> */}
+              ⚡
               </span>{" "}
               ________________________
             </p>

@@ -2,7 +2,7 @@
 Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfolio-roan-delta.vercel.app/)
 
 <div align="center">
-  <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
+  <img src="src/images/svg/logo.svg" alt="Logo" width="200" height="200">
   <p>
   📹Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React✨.
       <br/>
@@ -41,13 +41,13 @@ Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfo
 
 ### Photos
 
-![My React Portfolio Screen Shot](src/images/home-page.jpg)
+![My React Portfolio Screen Shot](src/images/jpg/home-page.jpg)
 
-![My React Portfolio Screen Shot](src/images/project-page.png)
+![My React Portfolio Screen Shot](src/images/png/project-page.png)
 
-![My React Portfolio Screen Shot](src/images/contact-page.jpg)
+![My React Portfolio Screen Shot](src/images/jpg/contact-page.jpg)
 
-![My React Portfolio Screen Shot](src/images/about-page.jpg)
+![My React Portfolio Screen Shot](src/images/jpg/about-page.jpg)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
