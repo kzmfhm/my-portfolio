@@ -2,22 +2,6 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.14",
-    "@mui/material": "^5.14.14",
-    "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.15.0",
-    "react-router-dom": "^6.15.0",
-    "react-scripts": "5.0.1",
-    "scss": "^0.2.4",
-    "web-vitals": "^3.5.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,10 +28,21 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.31",
-    "sass": "^1.66.1",
-    "tailwindcss": "^3.3.3"
+    "@emotion/react": "^11.13.0",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.26.0",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.77.8",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.4.8",
+    "web-vitals": "^4.2.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "tailwind.config.js",

@@ -53,6 +53,9 @@ body {
     background-color: #000000;
   }
 @media (max-width: 767px) {
+  .loading-tag{
+    margin-left: -20px;
+  }
     .hide-in-mobile {
       display: none;
     }

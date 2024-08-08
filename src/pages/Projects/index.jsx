@@ -3,12 +3,12 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import ProjectCard from './ProjectCard';
 import './style.css';
-import scraperGif from '../../images/scraper.gif';
-import webpGif from '../../images/first-project.gif';
-import gameGif from '../../images/tic-act-game.gif';
-import loginImage from '../../images/signup.gif';
-import InstaGif from '../../images/instagram.gif';
-import foodGif from '../../images/food-website.gif';
+import scraperGif from '../../images/gif/scraper.gif';
+import webpGif from '../../images/gif/first-project.gif';
+import gameGif from '../../images/gif/tic-act-game.gif';
+import loginImage from '../../images/gif/signup.gif';
+import InstaGif from '../../images/gif/instagram.gif';
+import foodGif from '../../images/gif/food-website.gif';
 
 const projectsData = [
   {

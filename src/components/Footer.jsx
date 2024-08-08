@@ -1,7 +1,7 @@
 import React from "react";
-import GithubIcon from '../images/github.svg';
-import LinkedinIcon from '../images/linkedin.svg';
-import FigmaIcon from '../images/figma.svg'
+import GithubIcon from '../images/svg/github.svg';
+import LinkedinIcon from '../images/svg/linkedin.svg';
+import FigmaIcon from '../images/svg/figma.svg'
 import { Link } from 'react-router-dom'; 
 import "./style.scss";
 import Section from "../sections";

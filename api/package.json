@@ -11,13 +11,13 @@
     "author": "Khuzaima",
     "license": "MIT",
     "dependencies": {
-        "axios": "^1.6.0",
+        "axios": "^1.7.3",
         "cors": "^2.8.5",
         "crypto-js": "^4.2.0",
-        "dotenv": "^16.0.3",
+        "dotenv": "^16.4.5",
         "express": "^4.19.2",
         "express-async-handler": "^1.2.0",
         "fs": "^0.0.1-security",
-        "nodemailer": "^6.9.9"
+        "nodemailer": "^6.9.14"
     }
 }

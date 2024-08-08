@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar';
 import './style.css';
-import gitImage from '../../images/github.svg';
+import gitImage from '../../images/svg/github.svg';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
 
