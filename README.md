@@ -57,7 +57,7 @@ Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfo
   ![HTML](https://img.shields.io/badge/HTML-5E5E5E?style=for-the-badge&logo=html5)
   ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
