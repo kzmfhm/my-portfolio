@@ -115,6 +115,6 @@ Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kz
 
 ### ⭐️Support
 
-Give a ⭐️ if this project helped you...
+Give a ⭐️ if this project helped you.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
