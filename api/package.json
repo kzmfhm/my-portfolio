@@ -15,7 +15,7 @@
         "cors": "^2.8.5",
         "crypto-js": "^4.2.0",
         "dotenv": "^16.4.5",
-        "express": "^4.20.0",
+        "express": "^4.21.0",
         "express-async-handler": "^1.2.0",
         "fs": "^0.0.1-security",
         "nodemailer": "^6.9.14"
