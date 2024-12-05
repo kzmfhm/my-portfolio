@@ -1,33 +1,30 @@
-@media screen and (max-width:600px) {
-    .grid{
-        
-            background-color: #333; 
-            margin-top: 7rem;
-            border-radius: 10px;
-            margin-right: 20px;
-            padding: 8px;
-            z-index: 1000;
-            height: 150px;
-        
-    }
+@media screen and (max-width: 600px) {
+  .grid {
+    background-color: #333;
+    margin-top: 7rem;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 8px;
+    z-index: 1000;
+    height: 150px;
+  }
 }
 
 .nav-item {
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-    margin-right: 30px;
-  }
-  
-  .nav-item:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-link {
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .nav-link:hover {
-    text-transform: uppercase;
-    transform: scale(1.1);
-  }
-  
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  text-transform: uppercase;
+  transform: scale(1.1);
+}

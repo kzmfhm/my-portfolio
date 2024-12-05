@@ -11,7 +11,10 @@ const About = () => {
     { name: "JavaScript", image: require("../../images/svg/js.svg").default },
     { name: "TypeScript", image: require("../../images/svg/ts.svg").default },
     { name: "Material UI", image: require("../../images/svg/MUI.svg").default },
-    { name: "Bootstrap", image: require("../../images/svg/bootstrap.svg").default },
+    {
+      name: "Bootstrap",
+      image: require("../../images/svg/bootstrap.svg").default,
+    },
     {
       name: "Tailwind CSS",
       image: require("../../images/svg/tailwindcss.svg").default,
@@ -48,10 +51,7 @@ const About = () => {
         <div className="centered-div mt-[15px]  md:mt-[10px]">
           <div className="md:h-[700px] h-[700px] md:mt-[10px] mt-[40px] md:ml-10 md:w-[950px] w-[350px] ml-[-3px] bg-[#111]">
             <p className="md:ml-[220px] h-[30px] md:mt-[40px] align-middle text-white text-2xl cursor-pointer transition ease-in-out delay-90 hover:text-yellow-600  hover:-translate-y-1 hover:scale-110 duration-100 hide-in-mobile">
-              ________________________{" "}
-              <span className="mt-[-20px]">
-              ⚡
-              </span>{" "}
+              ________________________ <span className="mt-[-20px]">⚡</span>{" "}
               ________________________
             </p>
             <p className="md:ml-[220px] mt-[30px] align-middle text-white text-1xl cursor-pointer transition ease-in-out delay-150 hover:text-yellow-600">
