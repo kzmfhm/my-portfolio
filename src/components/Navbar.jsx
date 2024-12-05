@@ -25,7 +25,11 @@ const Navbar = () => {
           <img src={Logo} alt="my-logo" />
         </NavLink>
       </div>
-      <div className={`text-yellow-700 ${showMobileMenu ? "hidden" : "ml-0"}`}>
+      <div
+        className={`md:hidden text-yellow-700 ${
+          showMobileMenu ? "hidden" : "ml-0"
+        }`}
+      >
         <button className="text-5xl mr-2 menu-icons" onClick={toggleMobileMenu}>
           &#8801;
         </button>
