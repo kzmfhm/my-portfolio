@@ -11,6 +11,7 @@
 }
 
 .nav-item {
+  display: inline-block;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   margin-right: 30px;
