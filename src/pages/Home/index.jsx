@@ -77,7 +77,6 @@ const Home = () => {
             </div>
           </div>
         </header>
-
         <div className="mt-[40px]">
           <Footer />
         </div>
