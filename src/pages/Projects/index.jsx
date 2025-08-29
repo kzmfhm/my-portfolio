@@ -33,10 +33,10 @@ const projectsData = [
     githubLink: 'https://github.com/kzmfhm/flavor-craft-food-website',
   },
   {
-    title: 'A Jewellery Website Design',
+    title: 'Jewellery Website Design',
     image: jewelleryGif,
-    description: 'This is a jewellery website design made using bootstrap framework.',
-    technologies: ['Html5', 'Javascript', 'CSS','Animations',],
+    description: 'A responsive jewelry website design developed using the Bootstrap framework.',
+    technologies: ['Bootstrap', 'Html', 'CSS','Javascript','Animations',],
     githubLink: 'https://github.com/kzmfhm/bootstrap-website-template',
   },
   {
