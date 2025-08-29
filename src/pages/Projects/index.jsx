@@ -1,13 +1,11 @@
-import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import ProjectCard from './ProjectCard';
 import './style.css';
 import scraperGif from '../../images/gif/scraper.gif';
 import webpGif from '../../images/gif/first-project.gif';
-import gameGif from '../../images/gif/tic-act-game.gif';
 import loginImage from '../../images/gif/signup.gif';
-import InstaGif from '../../images/gif/instagram.gif';
+import jewelleryGif from '../../images/gif/bootstrap-project.gif';
 import foodGif from '../../images/gif/food-website.gif';
 import showroomGif from '../../images/gif/mobile-showroom.gif'
 import PortfolioGif from '../../images/gif/portfolio-website.gif';
@@ -35,11 +33,11 @@ const projectsData = [
     githubLink: 'https://github.com/kzmfhm/flavor-craft-food-website',
   },
   {
-    title: 'An Instagram VideoPlayer',
-    image: InstaGif,
-    description: 'A project of video player seamless with Instagram stories.',
-    technologies: ['Nextjs', 'React', 'Javascript', 'CSS','Animations',],
-    githubLink: 'https://github.com/kzmfhm/instagram-stories',
+    title: 'A Jewellery Website Design',
+    image: jewelleryGif,
+    description: 'This is a jewellery website design made using bootstrap framework.',
+    technologies: ['Html5', 'Javascript', 'CSS','Animations',],
+    githubLink: 'https://github.com/kzmfhm/bootstrap-website-template',
   },
   {
     title: '  A Desktop Application',
@@ -47,13 +45,6 @@ const projectsData = [
     description: 'WebP Converter converts any png,jpeg and svg images to webp formate.',
     technologies: ['Python', 'Pyqt6', 'Pytest', 'Image Conversion',],
     githubLink: "https://github.com/kzmfhm/pyqt6-webp-file-converter",
-  },
-  {
-    title: 'Tic-Tac-Toe Game',
-    image: gameGif,
-    description: 'Tic-Tac-Toe game is built in javaScript with CSS styling and animations.',
-    technologies: [ 'Javascript', 'CSS', 'HTML','JQuery', 'Game Development'],
-    githubLink: "https://github.com/kzmfhm/tic-tac-toe-game.git" ,
   },
   {
     title: '3D Login/Signup Form',

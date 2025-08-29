@@ -1,5 +1,4 @@
-// ProjectCard.js
-import React from "react";
+
 import githubImage from "../../images/svg/github.svg";
 import "./style.css";
 
