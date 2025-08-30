@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../../components/Navbar";
 import "./style.css";
 import gImage from "../../images/svg/github.svg";
