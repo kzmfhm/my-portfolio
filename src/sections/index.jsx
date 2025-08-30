@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./style.scss";
 
 const Section = ({ children, id, className, title, background }) => {
