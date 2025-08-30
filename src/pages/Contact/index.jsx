@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import AccountBoxIcon from "../../images/svg/account-box.svg";
 import EmailIcon from "../../images/svg/mail.svg";
@@ -6,6 +6,7 @@ import "./style.css";
 import gImage from "../../images/svg/github.svg";
 import Footer from "../../components/Footer";
 import chatImage from "../../images/svg/chat.svg";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
