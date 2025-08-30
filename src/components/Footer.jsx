@@ -1,4 +1,3 @@
-import React from "react";
 import GithubIcon from '../images/svg/github.svg';
 import LinkedinIcon from '../images/svg/linkedin.svg';
 import FigmaIcon from '../images/svg/figma.svg'
@@ -25,8 +24,7 @@ const Footer = () => {
                         <Link to="/contact">Contact me</Link>
                     </li>
                 </ul>
-                <div className="social-icons">
-                   
+                <div className="social-icons">                   
                     <a href="https://github.com/kzmfhm/my-portfolio" target="_blank" rel="noopener noreferrer">
                     <img className="social-icon" src={GithubIcon} alt="GitHub" />
                      </a>
