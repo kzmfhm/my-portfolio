@@ -10,6 +10,7 @@ import foodGif from '../../images/gif/food-website.gif';
 import showroomGif from '../../images/gif/mobile-showroom.gif'
 import PortfolioGif from '../../images/gif/portfolio-website.gif';
 
+
 const projectsData = [
   {
     title: 'Online Mobile Showroom',
