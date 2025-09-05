@@ -4,8 +4,7 @@
 .section {
     padding: 10px 0;
     position: relative;
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     @include small-screen {
         padding: 10px 0;
