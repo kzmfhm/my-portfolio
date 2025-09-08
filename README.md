@@ -78,8 +78,6 @@ Feel free to fork this repo for your own purposes.
 
   <p align="right"><a href="#readme-top">back to top</a></p>
 
-<!-- GETTING STARTED -->
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
