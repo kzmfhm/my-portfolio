@@ -108,7 +108,6 @@ If you have any inquiries, don't hesitate to reach out to me via socials or by s
 <a href="https://www.linkedin.com/in/khuzaima-n-658b98268/">LinkedIn</a> | <a href="https://github.com/kzmfhm">GitHub</a><br/>
 Project Link: [https://github.com/kzmfhm/my-portfolio.git](https://github.com/kzmfhm/my-portfolio.git)
 
-<!-- SUPPORT -->
 
 ### ⭐️Support
 
