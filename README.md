@@ -35,7 +35,7 @@ Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfo
     </ol>
 
   </details>
-  <!-- ABOUT THE PROJECT -->
+  
 
 ## About The Project
 
