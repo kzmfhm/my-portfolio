@@ -12,7 +12,7 @@ Live Preview👉:[https://my-portfolio-roan-delta.vercel.app/](https://my-portfo
       <br/>
      </p>
   </div>
-   <!-- TABLE OF CONTENTS -->
+   
     <details>
     <summary>Table of Contents</summary>
    <ol>
