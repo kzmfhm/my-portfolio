@@ -1,7 +1,6 @@
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import ProjectCard from './ProjectCard';
-import './style.css';
 import scraperGif from '../../images/gif/scraper.gif';
 import webpGif from '../../images/gif/first-project.gif';
 import loginImage from '../../images/gif/signup.gif';
@@ -9,6 +8,7 @@ import jewelleryGif from '../../images/gif/bootstrap-project.gif';
 import foodGif from '../../images/gif/food-website.gif';
 import showroomGif from '../../images/gif/mobile-showroom.gif'
 import PortfolioGif from '../../images/gif/portfolio-website.gif';
+import './style.css';
 
 
 const projectsData = [
