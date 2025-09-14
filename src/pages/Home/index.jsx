@@ -1,8 +1,9 @@
 import Navbar from "../../components/Navbar";
-import "./style.css";
 import gitImage from "../../images/svg/github.svg";
 import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
+import "./style.css";
+
 
 const Home = () => {
   const githubLink = "https://github.com/kzmfhm/my-portfolio";
